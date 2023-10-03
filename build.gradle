@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.postgresql:postgresql'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'org.hibernate:hibernate-validator'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
